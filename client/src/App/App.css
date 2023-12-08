@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.product {
+  padding-top: 10px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 60px 1fr 15% 15%;
+  grid-template-rows: 50px;
+}
+.cartButton {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.cartTab {
+  width: 33%;
+  background-color: gray;
+  position: fixed;
+  inset: 0 -1000px 0 auto;
+  transition: 0.5s;
+}
+.openCart {
+  inset: 0 0 0 auto;
+}
